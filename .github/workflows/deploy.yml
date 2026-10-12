@@ -1,0 +1,88 @@
+name: Deploy website to Cloud Run
+# 只手动触发：在 Actions 页面 "Use workflow from" 里选择要部署的分支。
+on:
+  workflow_dispatch:
+permissions: {contents: read}
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: production
+    concurrency:
+      group: deploy-hush-website-production
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v6
+      - id: config
+        name: Load deployment configuration
+        shell: bash
+        run: |
+          set -a; source deploy/config.env; set +a
+          registry="${GCP_REGION}-docker.pkg.dev/${GCP_PROJECT_ID}/${ARTIFACT_REGISTRY}/${IMAGE_NAME}"
+          {
+            echo "project_id=$GCP_PROJECT_ID"
+            echo "region=$GCP_REGION"
+            echo "service=$SERVICE_NAME"
+            echo "site_url=$SITE_URL"
+            echo "image_tag=${registry}:sha-${GITHUB_SHA::7}"
+          } >> "$GITHUB_OUTPUT"
+      - uses: docker/setup-buildx-action@v4
+      - uses: google-github-actions/auth@v3
+        with:
+          credentials_json: "${{ secrets.GCP_SA_KEY }}"
+          project_id: "${{ steps.config.outputs.project_id }}"
+      - uses: google-github-actions/setup-gcloud@v3
+        with: {project_id: "${{ steps.config.outputs.project_id }}"}
+      - run: gcloud --quiet auth configure-docker "${{ steps.config.outputs.region }}-docker.pkg.dev"
+      - uses: docker/build-push-action@v7
+        with:
+          context: .
+          file: deploy/Dockerfile
+          push: true
+          tags: "${{ steps.config.outputs.image_tag }}"
+          build-args: "NEXT_PUBLIC_SITE_URL=${{ steps.config.outputs.site_url }}"
+          cache-from: type=gha,scope=hush-website
+          cache-to: type=gha,mode=max,scope=hush-website,ignore-error=true
+      - id: image
+        name: Resolve immutable image digest
+        env: {IMAGE_TAG: "${{ steps.config.outputs.image_tag }}"}
+        shell: bash
+        run: |
+          digest="$(docker buildx imagetools inspect "$IMAGE_TAG" --format '{{json .Manifest.Digest}}' | tr -d '"')"
+          [[ "$digest" =~ ^sha256:[0-9a-f]{64}$ ]]
+          echo "deploy=${IMAGE_TAG%:*}@$digest" >> "$GITHUB_OUTPUT"
+      - name: Deploy Cloud Run service
+        env: {IMAGE: "${{ steps.image.outputs.deploy }}", REVISION: "${{ github.sha }}"}
+        shell: bash
+        run: |
+          set -a; source deploy/config.env; set +a
+          envsubst '${SERVICE_NAME} ${GCP_REGION} ${REVISION} ${MAX_SCALE} ${IMAGE}' < deploy/cloudrun.yaml \
+            | gcloud run services replace - --region="$GCP_REGION"
+          gcloud run services describe "$SERVICE_NAME" --region="$GCP_REGION" --format='value(status.latestReadyRevisionName)'
+      - name: Notify deploy success
+        if: success()
+        continue-on-error: true
+        uses: echoings/actions.notify@v0.1.0
+        env:
+          NOTIFY_WEBHOOK: "${{ secrets.LARK_WEBHOOK_URL }}"
+        with:
+          plat_type: Lark
+          notify_title: "🎉 hush website 部署成功 - production 环境"
+          notify_message: |
+            **服务**: hush-website
+            **分支**: ${{ github.ref_name }}
+            **提交**: ${{ github.sha }}
+            **查看详情**: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+      - name: Notify deploy failure
+        if: failure()
+        continue-on-error: true
+        uses: echoings/actions.notify@v0.1.0
+        env:
+          NOTIFY_WEBHOOK: "${{ secrets.LARK_WEBHOOK_URL }}"
+        with:
+          plat_type: Lark
+          notify_title: "❌ hush website 部署失败 - production 环境"
+          notify_message: |
+            **服务**: hush-website
+            **分支**: ${{ github.ref_name }}
+            **提交**: ${{ github.sha }}
+            **查看详情**: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
