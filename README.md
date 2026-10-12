@@ -21,6 +21,17 @@ npm run build
 Outputs a fully static site to `out/`, which can be hosted on any static host (Vercel, Netlify, Cloudflare Pages, S3, Nginx…).
 Set `NEXT_PUBLIC_SITE_URL` to the production origin so canonical / hreflang URLs are absolute.
 
+### Production (Cloud Run + static IP)
+
+`https://myhush.ai` is served by Cloud Run (`deploy/Dockerfile`, nginx) behind a Global External Application
+Load Balancer that owns a global static IP. All settings live in `deploy/config.env`.
+
+- **Deploy**: `.github/workflows/deploy.yml` is manual only — run it from the Actions tab and pick the branch under
+  "Use workflow from". Needs repo secrets `GCP_SA_KEY` (and optionally `LARK_WEBHOOK_URL`).
+- **One-time LB setup** (after the first successful deploy, with your own gcloud login):
+  `deploy/setup-lb.sh --dry-run`, then `deploy/setup-lb.sh`. It prints the static IP — point the `A` records of
+  `myhush.ai` and `www.myhush.ai` at it. The managed certificate becomes ACTIVE once DNS resolves.
+
 ## Structure
 
 - `app/[lang]/` – localized page and root layout (`en`, `zh`)
