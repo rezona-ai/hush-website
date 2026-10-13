@@ -47,6 +47,6 @@ Load Balancer that owns a global static IP. All settings live in `deploy/config.
 ## Placeholders to replace before launch
 
 - App Store / Google Play links — `components/StoreButtons.tsx`
-- `[Effective Date]`, `[deletion page URL]`, `[Provider]`, `[Region]` in `content/legal/*.md` (see each file's checklist)
+- Legal effective date in `content/legal/*.md` is October 13, 2026 — change it if the site launches on a different day
 - Tier 2 / Tier 3 prices — `lib/dictionaries/*.ts` (only Tier 1 pricing appears in the design)
 - Character art, names and hooks are sample content from the Figma draft

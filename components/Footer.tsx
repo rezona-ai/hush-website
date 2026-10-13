@@ -3,8 +3,9 @@ import type { Dictionary } from "@/lib/dictionaries";
 import type { Locale } from "@/lib/i18n";
 import { Logo } from "./Logo";
 
-// Support address used throughout the Terms of Service and Privacy Policy.
-const CONTACT_EMAIL = "support@rezona.ai";
+// Operator and support address, as named in the Terms of Service and Privacy Policy.
+const COMPANY = "LINKOVA PTE. LTD.";
+const CONTACT_EMAIL = "contact@linkova.net";
 
 export function Footer({ dict, lang }: { dict: Dictionary["footer"]; lang: Locale }) {
   const year = new Date().getFullYear();
@@ -22,7 +23,7 @@ export function Footer({ dict, lang }: { dict: Dictionary["footer"]; lang: Local
         </nav>
       </div>
       <p className="mx-auto max-w-6xl px-4 pb-10 text-xs text-subtle sm:px-6">
-        © {year} Hush AI. {dict.rights}
+        © {year} {COMPANY} {dict.rights}
       </p>
     </footer>
   );

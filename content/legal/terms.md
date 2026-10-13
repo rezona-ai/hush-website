@@ -1,8 +1,8 @@
-# 服务条款 Terms of Service（草案版）
+# 服务条款 Terms of Service（10\.13）
 
-## 发布前要确认的信息
+## 发布前要确认的信息（10/13 已补齐）
 
-正文以 Rezona 的服务条款（rezona\.ai/terms\-service）为底本改写，运营主体、香港法律和仲裁、免责和责任上限都沿用。主要改动：
+正文参考 Rezona 服务条款的结构改写，主体、地址、邮箱已换成 LINKOVA 的信息；公司在新加坡，适用法律和仲裁从香港改成新加坡。主要改动：
 
 - **去掉了：**13–17 岁用户和监护人条款、用户创作和改编、社交和私信、姓名肖像授权、虚拟物品、订阅、支付（第一版没有付费）。
 
@@ -12,24 +12,22 @@
 
 分隔线以下的英文正文放到公开网页上。
 
-|**要确认什么**|**现在怎么写的**|**谁确认**|
+|**要确认什么**|**现在怎么写的**|**状态**|
 |---|---|---|
-|运营主体、地址|先照 Rezona 写 Stratava HK Limited（香港），适用香港法律、香港国际仲裁中心仲裁。要和隐私政策、App Store 的版权栏一致|法务|
-|联系邮箱|先用 support@rezona\.ai，和隐私政策一致|运营|
-|生效日期|\[Effective Date\]|发布当天填|
-|同意方式|开头写的是「点继续（登录）即视为同意」，对应登录页底部那行小字。Rezona 用的是勾选框；如果要上欧盟，可能要改成勾选，找法务确认|法务|
-|内容尺度|第 5 节照 Rezona 禁止「露骨色情内容」，和第一版的 Limited 尺度一致。以后网页端放开尺度时，这一节要改|产品|
-|举报处理时效|第 5\.3 节写了「24 小时内处理举报」（苹果对含用户互动类 App 的要求），运营要能做到|运营|
-|付费条款|第一版没有宝石和订阅，第 7 节只留一句。二版上线付费前，要补虚拟物品、订阅、支付三章（Rezona 原文第 7–9 节可以直接改）|产品（二版前）|
+|公司全称和地址|LINKOVA PTE\. LTD\.，Bencoolen Street, Singapore 189652|已补（10/13）|
+|客服 / 隐私邮箱|contact@linkova\.net（隐私问题也用这个邮箱）|已补（10/13）|
+|公司网站、删除账号页链接|公司网站 https://linkova\.net/；暂时没有网页删除页，正文写成「App 设置里删除，或发邮件」|网页删除页要技术做（Google Play 上架要求）|
+|生效日期|先填 October 13, 2026，网站更新那天不同就改|已填|
+|AI 服务商名单|服务条款不涉及|—|
 
 ---
 
 # Hush Terms of Service
 
-**Provided by Stratava HK Limited · Hong Kong SAR**
-Effective Date: \[Effective Date\] \| Last Updated: \[Effective Date\]
+**Provided by LINKOVA PTE\. LTD\.**
+Effective Date: October 13, 2026 \| Last Updated: October 13, 2026
 
-These Terms of Service \(the "Terms"\) govern your access to and use of the Hush application, website and related services \(collectively, the "Service"\)\. The Service is provided by Stratava HK Limited \("Stratava," "we," "us," or "our"\), a company incorporated in the Hong Kong Special Administrative Region\. For the purposes of this Agreement, you and Stratava are collectively referred to as the "Parties," and each individually as a "Party\."
+These Terms of Service \(the "Terms"\) govern your access to and use of the Hush application, website and related services \(collectively, the "Service"\)\. The Service is provided by LINKOVA PTE\. LTD\. \("Hush," "we," "us," or "our"\)\. For the purposes of this Agreement, you and Hush are collectively referred to as the "Parties," and each individually as a "Party\."
 
 Please read these Terms carefully before using the Service\. By tapping "Continue" to sign in, creating an account or otherwise using the Service, you confirm that you are at least 18 years old and that you have read, understood and agree to be bound by these Terms, our Privacy Policy and our Community Guidelines \(collectively, the "Agreement"\)\. If you do not agree, do not create an account or use the Service\. Your continued use of the Service after these Terms are updated constitutes your acceptance of the Terms then in effect\.
 
@@ -57,7 +55,7 @@ The Service is intended only for adults\. You must be at least 18 years old, or 
 
 ### 2\.2\. Accounts of Minors
 
-If we learn or reasonably believe that a user is under 18, we will close the account and delete the related personal data in accordance with our Privacy Policy\. If you believe a minor is using the Service, please contact us at support@rezona\.ai\.
+If we learn or reasonably believe that a user is under 18, we will close the account and delete the related personal data in accordance with our Privacy Policy\. If you believe a minor is using the Service, please contact us at contact@linkova\.net\.
 
 ### 2\.3\. Suspension for Violations
 
@@ -79,7 +77,7 @@ We reserve the right to deactivate your account at any time if you fail to compl
 
 ### 3\.4\. Deleting Your Account
 
-If you wish to delete your account, you may do so in the Service via "Settings → Delete Account" or by contacting support@rezona\.ai\. Once your account is deleted, you will not be able to reactivate it or retrieve your chat history\.
+If you wish to delete your account, you may do so in the Service via "Settings → Delete Account" or by contacting contact@linkova\.net\. Once your account is deleted, you will not be able to reactivate it or retrieve your chat history\.
 
 ## 4\. Your Content and AI Features
 
@@ -93,11 +91,11 @@ You retain all rights, title and interest in and to Your Content\.
 
 ### 4\.3\. License You Grant to the Service
 
-To enable the Service to operate, you grant Stratava and our affiliates, successors and service providers a non\-exclusive, royalty\-free, worldwide license to host, store, use, copy, process and transmit Your Content for the purposes of operating, maintaining, securing and improving the Service, reviewing content for safety, and complying with legal obligations, as described in our Privacy Policy\. We do not use your chat content to train AI models\. Your chats are private and are not shown to other users\.
+To enable the Service to operate, you grant Hush and our affiliates, successors and service providers a non\-exclusive, royalty\-free, worldwide license to host, store, use, copy, process and transmit Your Content for the purposes of operating, maintaining, securing and improving the Service, reviewing content for safety, and complying with legal obligations, as described in our Privacy Policy\. We do not use your chat content to train AI models\. Your chats are private and are not shown to other users\.
 
 ### 4\.4\. AI Outputs
 
-The character replies and other content generated by the Service \("AI Outputs"\) are provided for your personal entertainment only\. AI Outputs are generated automatically and may be inaccurate, inconsistent, offensive or otherwise inappropriate\. Stratava retains all rights in the characters, the AI models and systems, and the AI Outputs, and grants you a limited, personal, non\-commercial license to view and use AI Outputs within the Service\.
+The character replies and other content generated by the Service \("AI Outputs"\) are provided for your personal entertainment only\. AI Outputs are generated automatically and may be inaccurate, inconsistent, offensive or otherwise inappropriate\. Hush retains all rights in the characters, the AI models and systems, and the AI Outputs, and grants you a limited, personal, non\-commercial license to view and use AI Outputs within the Service\.
 
 ### 4\.5\. Not Professional Advice
 
@@ -109,11 +107,11 @@ By submitting Your Content, you represent and warrant that Your Content complies
 
 ### 4\.7\. De\-identified and Aggregated Data
 
-Stratava may create de\-identified, anonymized or aggregated data based on Your Content and your use of the Service\. Such data does not identify you\. Stratava may use, retain and disclose such data for any lawful purpose, without restriction, attribution or compensation\.
+Hush may create de\-identified, anonymized or aggregated data based on Your Content and your use of the Service\. Such data does not identify you\. Hush may use, retain and disclose such data for any lawful purpose, without restriction, attribution or compensation\.
 
 ### 4\.8\. Feedback
 
-If you provide us with suggestions, ideas, comments or other feedback regarding the Service \("Feedback"\), you grant Stratava a perpetual, irrevocable, worldwide, royalty\-free, transferable and fully sublicensable license to use and incorporate such Feedback for any purpose, without restriction, attribution or compensation to you\. We are under no obligation to adopt any Feedback\.
+If you provide us with suggestions, ideas, comments or other feedback regarding the Service \("Feedback"\), you grant Hush a perpetual, irrevocable, worldwide, royalty\-free, transferable and fully sublicensable license to use and incorporate such Feedback for any purpose, without restriction, attribution or compensation to you\. We are under no obligation to adopt any Feedback\.
 
 ## 5\. Acceptable Use and Prohibited Conduct
 
@@ -137,7 +135,7 @@ You agree to use the Service only for its intended purposes and in compliance wi
 
 **5\.2\.2\. Conduct Prohibitions\.** You must not:
 
-- impersonate any person or entity, including Stratava employees or Service personnel;
+- impersonate any person or entity, including Hush employees or Service personnel;
 
 - create or maintain accounts using false information, including about your age, or operate multiple accounts in violation of our policies;
 
@@ -161,7 +159,7 @@ You agree to use the Service only for its intended purposes and in compliance wi
 
 ### 5\.3\. Reporting and Enforcement
 
-You can report any character or content using the Report option in the Service\. We review reports within 24 hours\. We may at any time review, screen, moderate, remove, restrict or decline to display any content or character; suspend, restrict or terminate accounts; limit access to any feature; and cooperate with law enforcement where required by law\. Where reasonably practicable, we will provide an appeal channel through support@rezona\.ai\.
+You can report any character or content using the Report option in the Service\. We review reports within 24 hours\. We may at any time review, screen, moderate, remove, restrict or decline to display any content or character; suspend, restrict or terminate accounts; limit access to any feature; and cooperate with law enforcement where required by law\. Where reasonably practicable, we will provide an appeal channel through contact@linkova\.net\.
 
 ### 5\.4\. Export and Sanctions Compliance
 
@@ -171,15 +169,15 @@ You represent and warrant that you are not located in, a national or resident of
 
 ### 6\.1\. Termination by You
 
-You may stop using the Service at any time\. You may delete your account via "Settings → Delete Account" or by contacting support@rezona\.ai\.
+You may stop using the Service at any time\. You may delete your account via "Settings → Delete Account" or by contacting contact@linkova\.net\.
 
 ### 6\.2\. Termination by Us
 
-We may suspend, restrict or terminate your account or your access to all or part of the Service, with or without notice, if: you violate these Terms, our Community Guidelines or any applicable law; we reasonably believe you are under 18; your conduct creates a risk of harm to other users, Stratava or third parties; we are required to do so by law, court order or a governmental authority; or we discontinue the Service or a related feature\.
+We may suspend, restrict or terminate your account or your access to all or part of the Service, with or without notice, if: you violate these Terms, our Community Guidelines or any applicable law; we reasonably believe you are under 18; your conduct creates a risk of harm to other users, Hush or third parties; we are required to do so by law, court order or a governmental authority; or we discontinue the Service or a related feature\.
 
 ### 6\.3\. Appeals and Effect of Termination
 
-If your account is suspended or terminated, you may contact support@rezona\.ai to request a review\. We will respond in good faith within a reasonable time\. Upon termination, your right to access and use the Service ends immediately\.
+If your account is suspended or terminated, you may contact contact@linkova\.net to request a review\. We will respond in good faith within a reasonable time\. Upon termination, your right to access and use the Service ends immediately\.
 
 ## 7\. Paid Features
 
@@ -189,77 +187,77 @@ The Service is currently free to use\. If we introduce paid features, such as su
 
 ### 8\.1\. Intellectual Property of the Service
 
-All elements of the Service, including its name, logos, designs, characters, character artwork and descriptions, underlying technology, AI models and all platform\-generated content, are the property of Stratava or its licensors and are protected by applicable intellectual property laws\. Except as expressly provided in this Agreement, this Agreement grants you no rights in the Service's intellectual property\.
+All elements of the Service, including its name, logos, designs, characters, character artwork and descriptions, underlying technology, AI models and all platform\-generated content, are the property of Hush or its licensors and are protected by applicable intellectual property laws\. Except as expressly provided in this Agreement, this Agreement grants you no rights in the Service's intellectual property\.
 
 ### 8\.2\. Intellectual Property Complaints
 
-If you believe content on the Service, including a character, infringes your intellectual property rights, please send a written notice to support@rezona\.ai including: your contact information; a description of the rights you claim have been infringed; identification of the allegedly infringing content and its location on the Service; a statement of your good\-faith belief that the use is not authorized by the rights holder, its agent or the law; and confirmation that the information in your notice is accurate and that you are the rights holder or authorized to act on the rights holder's behalf\. Upon receiving a valid notice, we may remove or restrict access to the content\.
+If you believe content on the Service, including a character, infringes your intellectual property rights, please send a written notice to contact@linkova\.net including: your contact information; a description of the rights you claim have been infringed; identification of the allegedly infringing content and its location on the Service; a statement of your good\-faith belief that the use is not authorized by the rights holder, its agent or the law; and confirmation that the information in your notice is accurate and that you are the rights holder or authorized to act on the rights holder's behalf\. Upon receiving a valid notice, we may remove or restrict access to the content\.
 
 ## 9\. Disclaimers
 
 ### 9\.1\. Service Provided "As Is"
 
-To the maximum extent permitted by applicable law, the Service \(including all features, characters and AI Outputs\) is provided on an "as is" and "as available" basis, without warranties of any kind\. Stratava expressly disclaims all warranties of merchantability, fitness for a particular purpose, non\-infringement and accuracy\.
+To the maximum extent permitted by applicable law, the Service \(including all features, characters and AI Outputs\) is provided on an "as is" and "as available" basis, without warranties of any kind\. Hush expressly disclaims all warranties of merchantability, fitness for a particular purpose, non\-infringement and accuracy\.
 
 ### 9\.2\. No Warranty of Service Quality
 
-Stratava does not warrant that the Service will meet your requirements, or that it will be uninterrupted, timely, secure or error\-free\. Your use of the Service is at your own risk\.
+Hush does not warrant that the Service will meet your requirements, or that it will be uninterrupted, timely, secure or error\-free\. Your use of the Service is at your own risk\.
 
 ### 9\.3\. AI Outputs
 
-AI Outputs are generated by automated systems and may be inaccurate, biased, offensive or otherwise inappropriate\. Stratava makes no warranties as to the quality, accuracy, originality or suitability for any purpose of any AI Output\.
+AI Outputs are generated by automated systems and may be inaccurate, biased, offensive or otherwise inappropriate\. Hush makes no warranties as to the quality, accuracy, originality or suitability for any purpose of any AI Output\.
 
 ### 9\.4\. Third\-Party Links and Services
 
-The Service may contain links to, or interoperate with, third\-party websites or services\. Stratava does not control and is not responsible for any third\-party content or services\.
+The Service may contain links to, or interoperate with, third\-party websites or services\. Hush does not control and is not responsible for any third\-party content or services\.
 
 ### 9\.5\. Force Majeure
 
-Stratava is not liable for any failure or delay in performing its obligations or providing the Service caused by events beyond our reasonable control, including acts of God, natural disasters, epidemics or pandemics, war, civil unrest, governmental actions, labor disputes, telecommunications or internet infrastructure failures, power outages, or failures of third\-party services or platforms\.
+Hush is not liable for any failure or delay in performing its obligations or providing the Service caused by events beyond our reasonable control, including acts of God, natural disasters, epidemics or pandemics, war, civil unrest, governmental actions, labor disputes, telecommunications or internet infrastructure failures, power outages, or failures of third\-party services or platforms\.
 
 ### 9\.6\. Mandatory Consumer Rights
 
-Nothing in this Section limits any non\-waivable rights you may have under applicable consumer protection laws in your jurisdiction, including, to the extent applicable, any implied terms as to quality or fitness under the Sale of Goods Ordinance \(Cap\. 26\) or the Supply of Services \(Implied Terms\) Ordinance \(Cap\. 457\)\.
+Nothing in this Section limits any non\-waivable rights you may have under applicable consumer protection laws in your jurisdiction, including, to the extent applicable, any implied terms that cannot be excluded under the Sale of Goods Act 1979 or the Consumer Protection \(Fair Trading\) Act 2003 of Singapore\.
 
 ## 10\. Limitation of Liability
 
 ### 10\.1\. Liability Cap
 
-To the maximum extent permitted by applicable law, the total aggregate liability of Stratava, its affiliates, and their respective officers, directors, employees, agents and licensors arising out of or relating to the Service or these Terms \(whether in contract, tort \(including negligence\), statute or otherwise\) shall not exceed USD 100 \(or its local currency equivalent\)\.
+To the maximum extent permitted by applicable law, the total aggregate liability of Hush, its affiliates, and their respective officers, directors, employees, agents and licensors arising out of or relating to the Service or these Terms \(whether in contract, tort \(including negligence\), statute or otherwise\) shall not exceed USD 100 \(or its local currency equivalent\)\.
 
 ### 10\.2\. Exclusion of Indirect Losses
 
-To the maximum extent permitted by applicable law, Stratava, its affiliates, and their respective officers, directors, employees, agents and licensors shall not be liable for any indirect, incidental, special, consequential, exemplary or punitive damages \(including loss of profits, loss of data, loss of goodwill or business interruption\) arising out of or relating to your use of the Service, regardless of the legal theory on which the claim is based\. This includes, without limitation, damages arising from AI Outputs, loss of your chat history, third\-party services, or unauthorized access to your account \(except where caused by Stratava's gross negligence or willful misconduct\)\.
+To the maximum extent permitted by applicable law, Hush, its affiliates, and their respective officers, directors, employees, agents and licensors shall not be liable for any indirect, incidental, special, consequential, exemplary or punitive damages \(including loss of profits, loss of data, loss of goodwill or business interruption\) arising out of or relating to your use of the Service, regardless of the legal theory on which the claim is based\. This includes, without limitation, damages arising from AI Outputs, loss of your chat history, third\-party services, or unauthorized access to your account \(except where caused by Hush's gross negligence or willful misconduct\)\.
 
 ### 10\.3\. Non\-Excludable Liability
 
-Nothing in these Terms limits or excludes any liability that cannot be limited or excluded under applicable law, including liability arising from fraud, willful misconduct, gross negligence, or death or personal injury caused by negligence\. In Hong Kong, any exclusion or limitation of liability is subject to the Control of Exemption Clauses Ordinance \(Cap\. 71\), including its reasonableness requirements for consumer contracts; the cap in Section 10\.1 and the exclusions in Section 10\.2 apply only to the extent reasonable and permitted under that Ordinance\.
+Nothing in these Terms limits or excludes any liability that cannot be limited or excluded under applicable law, including liability arising from fraud, willful misconduct, gross negligence, or death or personal injury caused by negligence\. In Singapore, any exclusion or limitation of liability is subject to the Unfair Contract Terms Act 1977, including its reasonableness requirements; the cap in Section 10\.1 and the exclusions in Section 10\.2 apply only to the extent reasonable and permitted under that Act\.
 
 ## 11\. Indemnification
 
-To the maximum extent permitted by applicable law, you agree to defend, indemnify and hold harmless Stratava, its affiliates, and their respective officers, directors, employees, agents and licensors from and against all claims, losses, liabilities, costs and expenses \(including reasonable attorneys' fees\) arising from: Your Content; your violation of these Terms, our Community Guidelines or any applicable law; your fraudulent, unlawful or intentionally harmful use of the Service; or your infringement of any third\-party rights\.
+To the maximum extent permitted by applicable law, you agree to defend, indemnify and hold harmless Hush, its affiliates, and their respective officers, directors, employees, agents and licensors from and against all claims, losses, liabilities, costs and expenses \(including reasonable attorneys' fees\) arising from: Your Content; your violation of these Terms, our Community Guidelines or any applicable law; your fraudulent, unlawful or intentionally harmful use of the Service; or your infringement of any third\-party rights\.
 
 ## 12\. Governing Law and Dispute Resolution
 
 ### 12\.1\. Governing Law
 
-These Terms, and any dispute arising out of or relating to them or the Service, are governed by the laws of the Hong Kong Special Administrative Region, without regard to its conflict of laws principles\.
+These Terms, and any dispute arising out of or relating to them or the Service, are governed by the laws of the Republic of Singapore, without regard to its conflict of laws principles\.
 
 ### 12\.2\. Informal Resolution First
 
-You and Stratava agree to first attempt to resolve any dispute informally by contacting us at support@rezona\.ai with a written description of the dispute and the relief you seek\. The Parties will negotiate in good faith for at least sixty \(60\) days before commencing arbitration\.
+You and Hush agree to first attempt to resolve any dispute informally by contacting us at contact@linkova\.net with a written description of the dispute and the relief you seek\. The Parties will negotiate in good faith for at least sixty \(60\) days before commencing arbitration\.
 
 ### 12\.3\. Binding Arbitration
 
-If a dispute is not resolved informally, it will be finally resolved by binding arbitration administered by the Hong Kong International Arbitration Centre \(HKIAC\) under the HKIAC Administered Arbitration Rules in force when the arbitration is commenced\. The seat of arbitration will be Hong Kong, the arbitration will be conducted by one \(1\) arbitrator in English, and it will be kept confidential except as required by law or to enforce an award\.
+If a dispute is not resolved informally, it will be finally resolved by binding arbitration administered by the Singapore International Arbitration Centre \(SIAC\) under the Arbitration Rules of the SIAC in force when the arbitration is commenced\. The seat of arbitration will be Singapore, the arbitration will be conducted by one \(1\) arbitrator in English, and it will be kept confidential except as required by law or to enforce an award\.
 
 ### 12\.4\. Exceptions to Arbitration
 
-Notwithstanding Section 12\.3, \(a\) either Party may bring an individual claim before any court or tribunal of competent jurisdiction \(including the Small Claims Tribunal\) for claims within that body's jurisdiction; and \(b\) either Party may seek urgent interim, injunctive or other equitable relief from the Hong Kong courts without thereby waiving the arbitration agreement\.
+Notwithstanding Section 12\.3, \(a\) either Party may bring an individual claim before any court or tribunal of competent jurisdiction \(including the Small Claims Tribunals of Singapore\) for claims within that body's jurisdiction; and \(b\) either Party may seek urgent interim, injunctive or other equitable relief from the Singapore courts without thereby waiving the arbitration agreement\.
 
 ### 12\.5\. Class Action Waiver
 
-You and Stratava agree that each Party may bring claims against the other only in its individual capacity, and not as a plaintiff or class member in any purported class or representative proceeding\.
+You and Hush agree that each Party may bring claims against the other only in its individual capacity, and not as a plaintiff or class member in any purported class or representative proceeding\.
 
 ### 12\.6\. Mandatory Consumer Rights
 
@@ -269,25 +267,25 @@ Nothing in this Section limits any non\-waivable rights you have under applicabl
 
 ### 13\.1\. Apple App Store
 
-If you download the Service from the Apple App Store: these Terms exist solely between you and Stratava, not Apple Inc\.; Apple has no obligation to provide maintenance or support; Stratava, not Apple, is responsible for addressing claims relating to the Service; and Apple and Apple's subsidiaries are third\-party beneficiaries of these Terms and may enforce them against you upon your acceptance of these Terms\.
+If you download the Service from the Apple App Store: these Terms exist solely between you and Hush, not Apple Inc\.; Apple has no obligation to provide maintenance or support; Hush, not Apple, is responsible for addressing claims relating to the Service; and Apple and Apple's subsidiaries are third\-party beneficiaries of these Terms and may enforce them against you upon your acceptance of these Terms\.
 
 ### 13\.2\. Google Play Store
 
-If you download the Service from the Google Play Store: your use is also subject to the Google Play Terms of Service; Stratava, not Google LLC, is responsible for the Service and its content; and Google is not a third\-party beneficiary of these Terms\.
+If you download the Service from the Google Play Store: your use is also subject to the Google Play Terms of Service; Hush, not Google LLC, is responsible for the Service and its content; and Google is not a third\-party beneficiary of these Terms\.
 
 ## 14\. Miscellaneous
 
 ### 14\.1\. Entire Agreement and Amendments
 
-These Terms, together with our Privacy Policy, Community Guidelines and any additional terms applicable to specific features, constitute the entire agreement between you and Stratava regarding the Service\. We may amend these Terms from time to time; for material changes, we will give reasonable advance notice within the Service\. Your continued use of the Service after the effective date of the amended Terms constitutes your acceptance\.
+These Terms, together with our Privacy Policy, Community Guidelines and any additional terms applicable to specific features, constitute the entire agreement between you and Hush regarding the Service\. We may amend these Terms from time to time; for material changes, we will give reasonable advance notice within the Service\. Your continued use of the Service after the effective date of the amended Terms constitutes your acceptance\.
 
 ### 14\.2\. Electronic Communications and Notices
 
-You agree to receive these Terms, notices, disclosures and other communications from us electronically, including through messages within the Service, by email or by posting within the Service, and agree that such electronic communications satisfy any legal requirement that communications be in writing\. You must send formal legal notices to Stratava at support@rezona\.ai\.
+You agree to receive these Terms, notices, disclosures and other communications from us electronically, including through messages within the Service, by email or by posting within the Service, and agree that such electronic communications satisfy any legal requirement that communications be in writing\. You must send formal legal notices to Hush at contact@linkova\.net\.
 
-### 14\.3\. Third\-Party Rights \(Contracts \(Rights of Third Parties\) Ordinance\)
+### 14\.3\. Third\-Party Rights \(Contracts \(Rights of Third Parties\) Act\)
 
-Except as expressly provided in these Terms, a person who is not a party to these Terms has no right under the Contracts \(Rights of Third Parties\) Ordinance \(Cap\. 623\) to enforce any provision of these Terms\. Notwithstanding the foregoing, \(a\) Stratava's affiliates and their respective officers, directors, employees, agents and licensors may enforce Sections 9, 10 and 11; and \(b\) Apple Inc\. and its subsidiaries may enforce these Terms to the extent described in Section 13\.1\. No consent of any such third party is required to vary, rescind or terminate these Terms\.
+Except as expressly provided in these Terms, a person who is not a party to these Terms has no right under the Contracts \(Rights of Third Parties\) Act 2001 of Singapore to enforce any provision of these Terms\. Notwithstanding the foregoing, \(a\) Hush's affiliates and their respective officers, directors, employees, agents and licensors may enforce Sections 9, 10 and 11; and \(b\) Apple Inc\. and its subsidiaries may enforce these Terms to the extent described in Section 13\.1\. No consent of any such third party is required to vary, rescind or terminate these Terms\.
 
 ### 14\.4\. Assignment
 
@@ -295,16 +293,17 @@ You may not assign these Terms or any of your rights or obligations under them w
 
 ### 14\.5\. General Provisions
 
-If any provision of these Terms is held invalid or unenforceable, the remaining provisions remain in full force and effect, and the invalid provision will be modified to the minimum extent necessary to make it enforceable\. Stratava's failure to enforce any right or provision does not constitute a waiver\. These Terms do not create any agency, partnership or employment relationship between you and Stratava\. These Terms are provided in English; if we provide a translation, the English version prevails except as otherwise required by applicable consumer protection law\. Section headings are for convenience only\. Any provisions that by their nature should survive termination \(including Sections 4, 8, 9, 10, 11, 12 and 14\) survive the termination of these Terms\.
+If any provision of these Terms is held invalid or unenforceable, the remaining provisions remain in full force and effect, and the invalid provision will be modified to the minimum extent necessary to make it enforceable\. Hush's failure to enforce any right or provision does not constitute a waiver\. These Terms do not create any agency, partnership or employment relationship between you and Hush\. These Terms are provided in English; if we provide a translation, the English version prevails except as otherwise required by applicable consumer protection law\. Section headings are for convenience only\. Any provisions that by their nature should survive termination \(including Sections 4, 8, 9, 10, 11, 12 and 14\) survive the termination of these Terms\.
 
 ## 15\. Contact Us
 
-For inquiries, complaints or claims relating to the Service, please contact us at support@rezona\.ai\.
+For inquiries, complaints or claims relating to the Service, please contact us at contact@linkova\.net\.
 
 **Provider Information**
-Stratava HK Limited
-Room 1006, 10/F, Po Yip Building, 23 Hing Yip Street, Kwun Tong, Hong Kong
-Hong Kong Special Administrative Region
+LINKOVA PTE\. LTD\.
+Bencoolen Street, Singapore 189652
+Website: https://linkova\.net/
+Email: contact@linkova\.net
 
-The Service is provided by Stratava HK Limited\. © 2026 Stratava HK Limited\. All rights reserved\.
+The Service is provided by LINKOVA PTE\. LTD\. © 2026 LINKOVA PTE\. LTD\. All rights reserved\.
 
