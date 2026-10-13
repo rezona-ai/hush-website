@@ -1,41 +1,37 @@
-# 隐私政策 Privacy Policy（草案版）
+# 隐私政策 Privacy Policy（10\.13）
 
-## 发布前要确认的信息
+## 发布前要确认的信息（10/13 已补齐）
 
-正文以 Rezona 的隐私政策（rezona\.ai/privacy\-policy）为底本改写：结构、法律依据（香港 PDPO）、运营主体和联系方式都沿用；去掉了 Hush 没有的内容（小游戏、UGC、社交、私信、网页支付、13–17 岁用户条款），补上了 Hush 特有的：聊天内容、AI 服务商、人工查看聊天的情形、不训练模型、只限 18 岁以上。
+正文参考 Rezona 隐私政策的结构改写，主体、地址、邮箱已换成 LINKOVA 的信息；公司在新加坡，适用法律从香港个人资料条例改成新加坡 PDPA。去掉了 Hush 没有的内容（小游戏、UGC、社交、私信、网页支付、13–17 岁用户条款），补上了 Hush 特有的：聊天内容、AI 服务商、人工查看聊天的情形、不训练模型、只限 18 岁以上。
 
-方括号 \[ \] 的地方要替换；表里写「先」的是沿用 Rezona 或常见做法的默认值，确认不对再改。分隔线以下的英文正文放到公开网页上。
+方括号占位符已全部替换，法律条文按新加坡改过，建议法务过一遍。分隔线以下的英文正文放到公开网页上。
 
-|**要确认什么**|**现在怎么写的**|**谁确认**|
+|**要确认什么**|**现在怎么写的**|**状态**|
 |---|---|---|
-|运营主体|先照 Rezona 写 Stratava HK Limited（香港），地址、隐私联系方式也沿用 Rezona 的。如果 Hush 由别的公司运营，主体、地址、适用法律（现在按香港 PDPO 写）都要换|法务|
-|联系邮箱|先用 support@rezona\.ai。如果 Hush 有自己的邮箱（比如 support@hush…），全文替换|运营|
-|生效日期|\[Effective Date\]|发布当天填|
-|网页删除账号的地址|\[deletion page URL\]（Google Play 要求）|技术|
-|AI 服务商名单|附件 A 的 \[Provider\] 和处理地区|技术|
-|是否用聊天内容训练模型|第 1\.3 节先写成「我们和服务商都不用聊天内容训练模型」，按实际和合同核实|技术|
-|广告归因 / ATT|第 1\.4 节照 Rezona 写了（投放时用 IDFA / GAID 做归因，iOS 弹 ATT 授权）。如果 Hush 第一版不做投放归因，整节删掉，不然苹果会要求弹 ATT|技术 / 投放|
-|推送通知|第 1\.2 节写了收集推送 token。如果第一版没有推送，删掉这一条|技术|
-|AI 数据同意弹窗和撤回入口|第 1\.3、5 节写了「第一次聊天前征得同意、设置里可以撤回」，App 里必须真的有|技术（送审硬要求）|
+|公司全称和地址|LINKOVA PTE\. LTD\.，Bencoolen Street, Singapore 189652|已补（10/13）|
+|客服 / 隐私邮箱|contact@linkova\.net（隐私问题也用这个邮箱）|已补（10/13）|
+|公司网站、删除账号页链接|公司网站 https://linkova\.net/；暂时没有网页删除页，正文写成「App 设置里删除，或发邮件」|网页删除页要技术做（Google Play 上架要求）|
+|生效日期|先填 October 13, 2026，网站更新那天不同就改|已填|
+|AI 服务商名单|正文只写「第三方 AI 服务商」|—|
 
 ---
 
 # Hush Privacy Policy
 
-**Operated by Stratava HK Limited · Hong Kong SAR**
-Effective Date: \[Effective Date\] \| Last Updated: \[Effective Date\]
+**Operated by LINKOVA PTE\. LTD\.**
+Effective Date: October 13, 2026 \| Last Updated: October 13, 2026
 
-This Privacy Policy explains how Stratava HK Limited \("we", "us" or "the Company"\) collects, uses, discloses, transfers, stores and otherwise processes your personal data when you access or use the Hush mobile application, the Hush website and related features and services \(collectively, "Hush" or the "Service"\)\.
+This Privacy Policy explains how LINKOVA PTE\. LTD\. \("we", "us" or "the Company"\) collects, uses, discloses, transfers, stores and otherwise processes your personal data when you access or use the Hush mobile application, the Hush website and related features and services \(collectively, "Hush" or the "Service"\)\.
 
 Hush is an AI\-powered interactive story app for adults\. You can browse AI characters, chat with them in story\-based conversations, report content, and, where available, purchase virtual items and paid features within the Service\. Hush is only for users aged 18 and older\.
 
-With respect to your personal data, we are a "data user" under the Personal Data \(Privacy\) Ordinance \(Cap\. 486\) \(the "PDPO"\)\. We are committed to handling your personal data in accordance with the six Data Protection Principles \(DPPs\) of the PDPO and relevant PCPD guidance\.
+We are an organisation subject to the Personal Data Protection Act 2012 of Singapore \(the "PDPA"\)\. We are committed to handling your personal data in accordance with the PDPA and the advisory guidelines issued by the Personal Data Protection Commission \(the "PDPC"\)\.
 
 Please read this Policy carefully\. By creating an account or using Hush, you acknowledge that you have read and understood this Policy\. Where we rely on your consent to process personal data, we will seek that consent separately, and you may withdraw it at any time \(see Section 5\)\.
 
 ## 1\. Information We Collect
 
-We collect personal data only by lawful and fair means, and only to the extent necessary and not excessive for the purposes described in this Policy \(DPP1\)\. Some information is provided by you directly; some is generated or collected automatically when you use Hush\.
+We collect personal data only by lawful and fair means, and only to the extent reasonable for the purposes described in this Policy\. Some information is provided by you directly; some is generated or collected automatically when you use Hush\.
 
 ### 1\.1 Information You Provide
 
@@ -47,7 +43,7 @@ We collect personal data only by lawful and fair means, and only to the extent n
 
 - **Transaction and purchase information:** Where paid features are available, we collect and process information relating to the purchases, subscriptions and virtual items you acquire, hold or consume, including balances, top\-ups, spending records and subscription status \(including renewal or cancellation\)\. Payments are processed by the Apple App Store or Google Play; we do not collect or store your full card number and receive only transaction confirmations and limited information\.
 
-- **Reports, support and correspondence:** Information you provide when you report a character or content, contact support@rezona\.ai, submit a complaint or seek assistance\. When you contact support, we may collect application diagnostic logs \(which may include user identifiers and device status\)\.
+- **Reports, support and correspondence:** Information you provide when you report a character or content, contact contact@linkova\.net, submit a complaint or seek assistance\. When you contact support, we may collect application diagnostic logs \(which may include user identifiers and device status\)\.
 
 ### 1\.2 Information Collected Automatically
 
@@ -63,7 +59,7 @@ We collect personal data only by lawful and fair means, and only to the extent n
 
 ### 1\.3 AI Processing
 
-Because Hush is AI\-powered, the messages you send and the relevant conversation history are processed by our AI systems and by third\-party AI service providers on our behalf \(listed in Annex A\) to generate character replies\. We ask for your permission before your first chat, and you may withdraw it at any time in Settings; if you withdraw it, you will not be able to chat with characters\. We handle such data with reference to the PCPD's "Artificial Intelligence: Model Personal Data Protection Framework"\.
+Because Hush is AI\-powered, the messages you send and the relevant conversation history are processed by our AI systems and by third\-party AI service providers on our behalf to generate character replies\. We ask for your permission before your first chat, and you may withdraw it at any time in Settings; if you withdraw it, you will not be able to chat with characters\. We handle such data with reference to the PDPC's "Advisory Guidelines on Use of Personal Data in AI Recommendation and Decision Systems"\.
 
 We do not use your chat content to train AI models, and our AI service providers are not permitted to use it to train their own models\. A small number of authorized staff may review chat content only \(1\) when it is reported, \(2\) when our safety systems flag it, or \(3\) in limited, de\-identified samples used to improve reply quality\. Access is restricted and logged\. Please do not include unnecessary personal data in your messages\.
 
@@ -77,7 +73,7 @@ Hush is not designed to collect sensitive personal data such as health, biometri
 
 ## 2\. How We Use Your Information
 
-Under DPP1 and DPP3 of the PDPO, we use your personal data only for the purposes for which it was collected or purposes directly related to them\. We will not use it for a new purpose without your express and voluntary \("prescribed"\) consent\. We use your personal data to:
+We use your personal data only for the purposes notified to you, or for purposes that a reasonable person would consider appropriate in the circumstances, as permitted under the PDPA\. We will not use it for a new purpose without notifying you and, where required, obtaining your consent\. We use your personal data to:
 
 - Create, verify and manage your account, and provide Hush's core features;
 
@@ -101,13 +97,13 @@ Under DPP1 and DPP3 of the PDPO, we use your personal data only for the purposes
 
 ### 2\.1 Direct Marketing
 
-If we introduce marketing features in the future, we will first obtain your consent in accordance with Part 6A of the PDPO, and every marketing message will include a simple, free opt\-out; you may opt out at any time, after which we will no longer use your data for direct marketing, at no charge\.
+If we introduce marketing features in the future, we will first obtain your consent as required by the PDPA, including its Do Not Call provisions where applicable, and every marketing message will include a simple, free opt\-out; you may opt out at any time, after which we will no longer use your data for direct marketing, at no charge\.
 
 ## 3\. How We Share Your Information
 
-We do not sell your personal data\. We disclose personal data only in the following circumstances and consistently with the purposes of collection \(DPP3\):
+We do not sell your personal data\. We disclose personal data only in the following circumstances and consistently with the purposes of collection:
 
-- **Service providers and data processors:** We engage trusted vendors to provide cloud hosting and storage, AI models and content safety filtering, content delivery, analytics and attribution \(advertising measurement\), crash reporting, push notifications, customer support and communications services\. They may process personal data only on our instructions and for our purposes\. Under DPP2 and DPP4, we use contracts and other means to ensure they protect the data properly, do not retain it longer than necessary and do not use it for their own purposes\.
+- **Service providers and data processors:** We engage trusted vendors to provide cloud hosting and storage, AI models and content safety filtering, content delivery, analytics and attribution \(advertising measurement\), crash reporting, push notifications, customer support and communications services\. They may process personal data only on our instructions and for our purposes\. We use contracts and other means to ensure they protect the data properly, do not retain it longer than necessary and do not use it for their own purposes\.
 
 - **App stores:** The Apple App Store and Google Play process your purchases of virtual items, subscriptions and other paid features and provide us with transaction confirmations and limited transaction information\.
 
@@ -119,15 +115,15 @@ Your chats are private\. We do not show your conversations to other users\.
 
 ## 4\. Where We Store Your Information
 
-Hush is operated from Hong Kong and offered to users globally\. Your personal data may be stored and processed in Hong Kong and in other regions where we or our service providers operate, and may therefore be transferred outside Hong Kong and processed there\. For example, chat content is sent to our AI service providers listed in Annex A, and some analytics and crash\-reporting data is transmitted to service providers located in the United States for processing\.
+Hush is operated from Singapore and offered to users globally\. Your personal data may be stored and processed in Singapore and in other regions where we or our service providers operate, and may therefore be transferred outside Singapore and processed there\. For example, chat content is sent to our third\-party AI service providers, and some analytics and crash\-reporting data is transmitted to service providers located in the United States for processing\.
 
-When transferring personal data outside Hong Kong, we take measures consistent with section 33 of the PDPO and the PCPD's "Guidance on Recommended Model Contractual Clauses for Cross\-border Transfer of Personal Data", including contractual clauses requiring the recipient to provide a level of protection comparable to the PDPO, transfer impact assessments, and appropriate technical and organisational safeguards such as encryption and access controls\.
+When transferring personal data outside Singapore, we take measures in accordance with the Transfer Limitation Obligation under section 26 of the PDPA and the Personal Data Protection Regulations 2021, including contractual clauses requiring the recipient to provide a standard of protection comparable to that under the PDPA, and appropriate technical and organisational safeguards such as encryption and access controls\.
 
 ## 5\. Your Rights and Choices
 
-The PDPO gives you important rights over your personal data, and we are committed to helping you exercise them\. To the extent permitted by the PDPO, you may:
+The PDPA gives you important rights over your personal data, and we are committed to helping you exercise them\. To the extent permitted by the PDPA, you may:
 
-- **Access your data \(data access request\):** Ask whether we hold your personal data and request a copy\. Under the PDPO, we will respond within 40 days and may charge a reasonable fee that is not excessive\.
+- **Access your data \(data access request\):** Ask whether we hold your personal data and request a copy\. We will respond as soon as reasonably possible, generally within 30 days, and may charge a reasonable fee as permitted by the PDPA\.
 
 - **Correct your data \(data correction request\):** Request correction of inaccurate personal data; you can also update some profile information directly within the Service\.
 
@@ -137,15 +133,15 @@ The PDPO gives you important rights over your personal data, and we are committe
 
 - **Reset a chat:** Reset any conversation within the Service\.
 
-- **Delete your account and data:** Delete your account directly in Settings within the Service or at \[deletion page URL\], or ask us to delete your account and related personal data\. Records we must retain by law may continue to exist as described in Section 7\.
+- **Delete your account and data:** Delete your account directly in Settings within the Service, or email us at contact@linkova\.net to ask us to delete your account and related personal data\. Records we must retain by law may continue to exist as described in Section 7\.
 
 - **Manage device permissions:** Control notifications, tracking permission and access to device features through your device, browser and app settings\.
 
-To exercise these rights, please contact us using the details in Section 10\. We may need to verify your identity before handling a request\. If you are dissatisfied with how we handle your personal data, you may complain to the Office of the Privacy Commissioner for Personal Data, Hong Kong \(www\.pcpd\.org\.hk\)\.
+To exercise these rights, please contact us using the details in Section 10\. We may need to verify your identity before handling a request\. If you are dissatisfied with how we handle your personal data, you may complain to the Personal Data Protection Commission of Singapore \(www\.pdpc\.gov\.sg\)\.
 
 ## 6\. Security of Your Information
 
-Under DPP4 of the PDPO, we take all reasonably practicable steps to protect your personal data against unauthorised or accidental access, processing, erasure, loss or use, having regard to the kind of data, the harm that could result, and how it is stored and transmitted\. With reference to the PCPD's "Guidance Note on Data Security Measures for Information and Communications Technology" and privacy\-by\-design practices, our measures include:
+In accordance with the Protection Obligation under the PDPA, we make reasonable security arrangements to protect your personal data against unauthorised access, collection, use, disclosure, copying, modification or disposal, or similar risks, and the loss of any storage medium or device on which it is stored\. Our measures include:
 
 - Encrypting personal data in transit \(and, where appropriate, at rest\);
 
@@ -157,11 +153,11 @@ Under DPP4 of the PDPO, we take all reasonably practicable steps to protect your
 
 - Contractual security obligations imposed on data processors\.
 
-Despite these safeguards, no method of transmission or storage is completely secure\. We maintain a data breach response plan and, with reference to the PCPD's "Guidance on Data Breach Handling and Data Breach Notifications", assess any suspected breach; where there is a real risk of harm, we will notify affected individuals and the PCPD as soon as practicable and take containment and remediation measures\.
+Despite these safeguards, no method of transmission or storage is completely secure\. We maintain a data breach response plan and assess any suspected breach in accordance with the Data Breach Notification Obligation under the PDPA; where a breach is notifiable, we will notify the PDPC within 3 calendar days of determining so, notify affected individuals where required, and take containment and remediation measures\.
 
 ## 7\. How Long We Keep Your Information
 
-Under DPP2 of the PDPO and PCPD guidance on erasure and anonymisation of personal data, we retain your personal data only for as long as necessary to fulfil the purposes of collection, or for the period required by law\.
+In accordance with the Retention Limitation Obligation under the PDPA, we retain your personal data only for as long as necessary to fulfil the purposes of collection, or as required for legal or business purposes\.
 
 - Account, profile and chat data is retained for as long as your account exists;
 
@@ -177,7 +173,7 @@ When personal data is no longer needed, we delete it securely or irreversibly an
 
 Hush is intended only for users aged 18 and above\. If you are under 18, please do not create an account or use the Service\. We ask users to confirm their age when they sign up, and we do not knowingly collect personal data from anyone under 18\.
 
-If we learn that we have collected personal data from a person under 18, we will take reasonable steps to delete such data and close the account\. If you believe a minor is using Hush, please contact us at support@rezona\.ai\.
+If we learn that we have collected personal data from a person under 18, we will take reasonable steps to delete such data and close the account\. If you believe a minor is using Hush, please contact us at contact@linkova\.net\.
 
 ## 9\. Updates to This Privacy Policy
 
@@ -187,19 +183,11 @@ We may update this Privacy Policy from time to time to reflect changes in the Se
 
 If you have any questions, requests or complaints about this Policy or how we handle your personal data \(including access and correction requests\), please contact our data protection officer / privacy team:
 
-Stratava HK Limited — Privacy Team / Data Protection Officer \(DPO\)
-Email: support@rezona\.ai
-Room 1006, 10/F, Po Yip Building, 23 Hing Yip Street, Kwun Tong, Hong Kong
-Hong Kong Special Administrative Region
+LINKOVA PTE\. LTD\. — Privacy Team / Data Protection Officer \(DPO\)
+Email: contact@linkova\.net
+Bencoolen Street, Singapore 189652
 
-If you believe your rights under the PDPO have not been respected, you may also contact the Office of the Privacy Commissioner for Personal Data, Hong Kong \(www\.pcpd\.org\.hk\)\.
+If you believe your rights under the PDPA have not been respected, you may also contact the Personal Data Protection Commission of Singapore \(www\.pdpc\.gov\.sg\)\.
 
-## Annex A: AI Service Providers
-
-|**Provider**|**Purpose**|**Data sent**|**Processing location**|
-|---|---|---|---|
-|\[Provider\]|Generates character replies|Your messages, conversation history, character profile|\[Region\]|
-|\[Provider\]|Content safety filtering|Messages and replies|\[Region\]|
-
-The Service is provided by Stratava HK Limited\. © 2026 Stratava HK Limited\. All rights reserved\.
+The Service is provided by LINKOVA PTE\. LTD\. © 2026 LINKOVA PTE\. LTD\. All rights reserved\.
 

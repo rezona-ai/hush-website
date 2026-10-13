@@ -34,6 +34,17 @@ const linkEmails = (markdown: string) =>
   });
 
 /**
+ * Turns bare http(s) URLs into explicit links. Without this, GFM's autolinker keeps the
+ * Markdown escapes in the target (`https://linkova\.net/` → `https://linkova%5C.net/`).
+ */
+const linkUrls = (markdown: string) =>
+  markdown.replace(/https?:\/\/[^\s<>()]+/g, (match) => {
+    const trailing = match.match(/(?:\\?[.,;:!?])+$/)?.[0] ?? "";
+    const url = unescapeMarkdown(match.slice(0, match.length - trailing.length));
+    return `[${url}](${url})${trailing}`;
+  });
+
+/**
  * Loads a legal document from content/legal at build time.
  *
  * The source files start with an internal, Chinese pre-publication checklist; only the
@@ -59,7 +70,7 @@ export async function getLegalDocument(doc: LegalDoc): Promise<LegalDocument> {
     i++;
   }
 
-  const body = linkEmails(publicLines.slice(i).join("\n").trim());
+  const body = linkUrls(linkEmails(publicLines.slice(i).join("\n").trim()));
   const sections = body
     .split("\n")
     .filter((line) => line.startsWith("## "))
